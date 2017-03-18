@@ -1,0 +1,72 @@
+baseurl = "https://ichennn.github.io/"
+title = "Murmuring"
+languageCode = "en-us"
+
+MetaDataFormat = "toml"
+theme = "hyde-x"
+paginate = 10
+#publishDir = "docs"
+
+[author]
+    name = "IChen Hung"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/year-month-day/:title/"
+
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
+
+
+#add categories in sidebar
+#
+[[menu.main]]
+    name = "日本生活"
+    url = "/categories/note"
+
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+
+    
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Hide estimated reading time for posts.
+    # Default (if omitted) is false.
+    hideReadingTime = true
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-08 layout-reverse"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "solarized_dark"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "最好的心靈"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "HOME"
+
+    # Sidebar social links, these must be full URLs.
+    github = "https://github.com/IChennn"
+    bitbucket = ""
+    stackOverflow = ""
+    linkedin = ""
+    googleplus = ""
+    facebook = ""
+    twitter = ""
+    youtube = ""
+
+   
