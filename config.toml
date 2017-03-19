@@ -13,7 +13,7 @@ paginate = 10
 [permalinks]
     # Optional. Change the permalink format for the 'post' content type.
     # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/blog/year-month-day/:title/"
+    post = "/blog/:year/:month/:title/"
 
 [taxonomies]
     # Optional. Use if you want tags and lists.
@@ -23,8 +23,8 @@ paginate = 10
 #add categories in sidebar
 #
 [[menu.main]]
-    name = "日本生活"
-    url = "/categories/note"
+    name = "category"
+    url = "/categories"
 
 
 #
@@ -45,7 +45,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-08 layout-reverse"
+    theme = "theme-base-zz layout-reverse"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.

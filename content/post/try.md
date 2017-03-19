@@ -1,3 +1,12 @@
++++
+title = "try markdown"
+date = "2017-03-19T16:36:54+08:00"
+categories = ["note"]
+keywords = []
+description = "try some markdown syntax"
+
++++
+
 ```Python
 import pandas
 print("hello world!")
