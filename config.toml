@@ -23,8 +23,8 @@ paginate = 10
 #add categories in sidebar
 #
 [[menu.main]]
-    name = "category"
-    url = "/categories"
+    name = "note"
+    url = "/categories/note/"
 
 
 #
@@ -45,7 +45,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-zz layout-reverse"
+    theme = "theme-base-08 layout-reverse"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
