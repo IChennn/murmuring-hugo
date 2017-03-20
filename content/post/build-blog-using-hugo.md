@@ -2,7 +2,7 @@
 date = "2017-03-20T20:28:57+08:00"
 description = "其實寫部落格真的是一件很麻煩的事，但好不容易下定決心要為生活留下一點痕跡，就來記錄一下生出現在的部落格的過程吧。"
 title = "如何用Hugo架出乾淨簡潔的部落格"
-categories = ["Tech"]
+categories = ["Learning","Tech","Hugo" ]
 keywords = []
 
 +++
@@ -75,6 +75,7 @@ $ git submodule add <theme url> theme/<theme name>
 ```
 
 submodule大概就是git裡的超連結，可以連到另一個獨立的repository裏，這樣原作者有什麼更新的話，就不用再手動更新了。
+
 不過直接`git clone`下來也是可以的，只要本地有檔案還是可以產生靜態頁面。真要說有什麼不方便的話，大概就是某天想要換電腦寫文章的時候，要再額外到theme作者的頁面git clone一次而已。
 
 
@@ -103,7 +104,7 @@ $ git push origin master
 
 為什麼說很重要呢？因為不`cd`進public，裡面的東西是不會被連帶push上去的啊！！
 
-之後要新增文章，只要寫好之後執行`hugo`，再把public資料夾裡的東西push上去就可以更新了！
+之後要新增文章，只要寫好之後執行`hugo`，再把public資料夾裡的東西push上去就可以更新了💕
 
 
 
