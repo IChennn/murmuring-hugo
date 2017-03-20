@@ -6,6 +6,7 @@ MetaDataFormat = "toml"
 theme = "hyde-x"
 paginate = 10
 #publishDir = "docs"
+canonifyURLs = true
 
 [author]
     name = "IChen Hung"
@@ -23,8 +24,8 @@ paginate = 10
 #add categories in sidebar
 #
 [[menu.main]]
-    name = "note"
-    url = "/categories/note/"
+    name = "Learning"
+    url = "/categories/Tech/"
 
 
 #
@@ -51,9 +52,12 @@ paginate = 10
     # Check the static/css/highlight directory for options.
     highlight = "solarized_dark"
 
+    # Optional additional custom CSS file URL, will override other styles.
+    #customCSS = ""
+    
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
-    tagline = "最好的心靈"
+    tagline = "心身之外，順其自然；順其自然，花落果成。"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Blog".
