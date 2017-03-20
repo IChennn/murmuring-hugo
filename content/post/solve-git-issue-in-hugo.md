@@ -19,15 +19,17 @@ date = "2017-03-21T00:33:37+08:00"
 
 自己的手賤自己救，拜過估狗大神後還是把它弄好了（雙手合十
 
-------
+---
 
-#### **<u>所以我到底對他做了什麼呢</u>？**
+
+
+### **<u>所以我到底對他做了什麼呢</u>？**
 
 
 
 …….我真的不知道啦（哭
 
-###### →可能原因： <font color="red">**push順序錯誤：**<font>
+##### →可能原因： <font color="red">**push順序錯誤：**<font>
 
 <font color="black">因為submodule的內容不會被連帶更新，所以要先push submodule再push上一層（如果有需要的話），不然從上一層repo連結過去會是前一次push的內容。<font>
 
@@ -43,15 +45,15 @@ Everything up-to-date
 
 
 
-#### **<u>解決方法</u>**
+### **<u>解決方法</u>**
 
 參照[這篇](http://stackoverflow.com/questions/4445738/unable-to-push-commits-from-a-git-submodule) [註一]，總結來說就是：
 
 ```Bash
-$cd <submodule directory>
-$git checkout master
-$git merge HEAD@{1}
-$git push origin master
+$ cd <submodule directory>
+$ git checkout master
+$ git merge HEAD@{1}
+$ git push origin master
 ```
 
 因為現在其實有兩個branch。
@@ -65,7 +67,7 @@ $ git branch
 除了`master`以外，另一個就是我們現在所處的branch 。所以解決方法就是要把這兩個莫名其妙被我搞出來的東西merge在一起。當輸入merge指令之後，會看到：
 
 ```Bash
-$git merge HEAD@{1}
+$ git merge HEAD@{1}
 Updating 300cd65..08987fb
 Fast-forward
  blog/.DS_Store                              | Bin 6148 -> 6148 bytes
@@ -79,11 +81,11 @@ Fast-forward
 
 耶，然後就正常了！我以後還是乖乖寫東西更新就好了，不要再亂動裡面的檔案orz
 
-------
+---
 
 
 
-#### `git add`的時候碰到奇怪的錯誤訊息：
+### `git add`的時候碰到奇怪的錯誤訊息：
 
 
 
@@ -119,8 +121,8 @@ Abort trap: 6
 此時解決方法就不太一樣，要回到上一層處理：
 
 ```bash
-$git submodule init
-$git submodule update
+$ git submodule init
+$ git submodule update
 ```
 
 
