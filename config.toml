@@ -25,7 +25,11 @@ canonifyURLs = true
 #
 [[menu.main]]
     name = "Learning"
-    url = "/categories/Tech/"
+    url = "/categories/Learning/"
+
+[[menu.main]]
+    name = "Life in Kyoto"
+    url = "/categories/Kyoto/"
 
 
 #
