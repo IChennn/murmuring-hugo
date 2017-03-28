@@ -72,7 +72,7 @@ AO入試類似於台灣的推甄申請，主要以審查資料、小論文、面
 2. 專門科目挑2~3個大主題細讀就好，力求不要落後學部考生太多
 3. 打點好面試的服裝＆背好自我介紹ＸＤ
 
-##### *＃情報學基礎*
+#### *＃情報學基礎*
 
 募集要項上有指定書目，其實就是大一計算機概論會用的那本：
 
@@ -87,43 +87,34 @@ AO入試類似於台灣的推甄申請，主要以審查資料、小論文、面
 - 一定會有一大題名詞解釋，有背有分；另一方面也可以幫助自己更了解基本概念
 - 比較常出現的有operating system、algorithms、computation theory這三個單元 
 
-##### *＃專門科目*
+#### *＃專門科目*
 
 專門科目試卷非常厚一疊，**17題選3，共有五種不同領域**，根據第一志望的研究室來選擇題目。
 
 計算機題組5題的組成每年其實大同小異：
 
-- <u>Database</u> 
-
-  ​	1題。主要是SQL、relational algebra、relational calculas、indexing、transaction management
-
-- <u>HCI</u>
-
-  ​	1題。主要是usability evaluation  的幾種方法及優缺點
-
-- <u>Information Retrieval</u>
-
-  ​	1~2題。範圍很大，較難，從基本的precision/recall rate到B tree到recommendation system都有
-
-- <u>AI</u>
-
-  ​	0~1題。decision tree、bayesian network等主題
-
-- <u>情報教育</u>
-
-  ​	0~1題。應該是學部的一門課，主要是e-learning的概念和方法。
+- <u>***Database***</u> 
+  - 1題。主要是SQL、relational algebra、relational calculas、indexing、transaction management
+- <u>***HCI***</u>
+  - 1題。主要是usability evaluation  的幾種方法及優缺點
+- <u>***Information Retrieval***</u>
+  - 1~2題。範圍很大，較難，從基本的precision/recall rate到B tree到recommendation system都有
+- <u>***AI***</u>
+  - 0~1題。decision tree、bayesian network等主題
+- <u>***情報教育***</u>
+  - 0~1題。應該是學部的一門課，主要是e-learning的概念和方法。
 
 因為時間太少了，我決定只以資料庫跟HCI為主力目標，其他大概念一下，有考到算我撿到（欸
 
 不過這部分我還是考得不好，考完失落到去超市大肆採購洩恨（不對吧
 
-##### *＃一般論述*
+#### *＃一般論述*
 
 給一篇文章問你的看法或可能的解決方法，或是給文章跟圖表，考如何詮釋與理解。
 
 基本上無法準備，各憑本事。自認邏輯跟表達能力還不錯的話，其實是個滿不錯的科目，可以平衡一下前兩節的挫折ＸＤ
 
-##### *＃面試*
+#### *＃面試*
 
 面試名單當天早上會公布在系館樓下，看了一下號碼幾乎九成都有進吧ＸＤ
 
