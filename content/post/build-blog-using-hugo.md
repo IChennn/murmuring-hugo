@@ -82,7 +82,7 @@ submodule大概就是git裡的超連結，可以連到另一個獨立的reposito
 
 ##### Step3:  生成網頁
 
-先填寫好`config.toml`內的設定，準備好要發表的文章，hugo`後會產生一個存放靜態頁面的資料夾，預設是叫public
+先填寫好`config.toml`內的設定，準備好要發表的文章，`hugo`後會產生一個存放靜態頁面的資料夾，預設是叫public
 
 ```bash
 $ hugo

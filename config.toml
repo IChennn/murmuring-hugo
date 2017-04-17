@@ -29,7 +29,7 @@ canonifyURLs = true
 
 [[menu.main]]
     name = "Life in Kyoto"
-    url = "/categories/Kyoto/"
+    url = "/categories/京都生活/"
 
 
 #
