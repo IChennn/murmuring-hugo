@@ -17,7 +17,7 @@ categories = ["Learning", "Rails"]
 
 此篇主要紀錄如何解決上傳到Heroku時可能碰到的一些亂七八糟的小毛病。以及如何在Heroku上實現使用者上傳圖片的功能。
 
-## 第一次部署到Heroku
+##第一次部署到Heroku
 
 首先，安裝Heroku的 gem。再來，註冊一個Heroku帳號。
 
