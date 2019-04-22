@@ -24,6 +24,10 @@ canonifyURLs = true
 #add categories in sidebar
 #
 [[menu.main]]
+    name = "Life in Tokyo"
+    url = "/categories/東京生活/"
+
+[[menu.main]]
     name = "Learning"
     url = "/categories/Learning/"
 
