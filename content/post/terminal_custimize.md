@@ -34,13 +34,16 @@ export PS1="\[\e[0;33m\]\u\[\033[m\]@\[\033[2;93m\]\h:\[\033[0;32m\]\w\[\033[m\]
 
 其中
 
-* `u` 是user name
-* `h` 是host name
-* `w` 是working directory
+* `\u` 是user name
+* `\h` 是host name
+* `\w` 是working directory
 * $ 和 ＠ 看個人喜好，也可以換成其他喜歡的符號
 
 字母後面的是顏色的色碼，一樣可以在網路上查到各式各樣的顏色 （關鍵字：terminal color code）
 
+最後別忘了 `source ~/.bash_profile`
+
 按照上面的設定，最後的成果長這樣：
 
 ![terminal color](/img/201707-terminal-color.jpg)
+
