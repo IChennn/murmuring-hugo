@@ -16,9 +16,10 @@ categories = ["Learning", "Terminal"]
 ---
 
 首先，叫出`.bash_profile.` 這個檔案
+(或是`.zshrc`)
 
 ```shell
-$ subl ~/.bash_profile
+$ subl ~/.bash_profile (~/.zshrc)
 ```
 
 加上這兩段：
@@ -30,6 +31,10 @@ export LSCOLORS="gxfxcxdxcxegedabagacad"
 
 #change hostname color shown in terminal
 export PS1="\[\e[0;33m\]\u\[\033[m\]@\[\033[2;93m\]\h:\[\033[0;32m\]\w\[\033[m\]\$ "
+```
+若是zsh的話：
+```shell
+export PROMPT="%F{green}%n@%m%f: %F{yellow}%.%f $ "
 ```
 
 其中
