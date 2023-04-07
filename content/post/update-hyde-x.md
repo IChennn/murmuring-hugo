@@ -1,4 +1,5 @@
 +++
+date = "2023-04-07T09:03:08+09:00"
 title = "讓Hyde-X theme重新動起來"
 description = "Hyde-X在2018年之後就再也沒有更新維護，2023年已無法直接render。不過藉由override修正一些小地方，就可以讓Hyde-X重新動起來了！"
 keywords = []
