@@ -33,7 +33,7 @@
 
     
 
-    <p><font size=2>Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ "/LICENSE" | absURL }}">License</a><br/>
+    <p><font size=2>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}<br/>
        Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></font></p>
   </div>
 </div>
