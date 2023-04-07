@@ -6,7 +6,9 @@ Source for my website :  [https://ichennn.github.io/](https://ichennn.github.io/
 1. author name >> site title
 2. Css override. Theme color and sidebar layout has been changed.
 3. Favicon changed.
+
 (2023/4 updated)
+
 4. Fix render error in `layouts/partials/sidebar.html`
 ```
 -    <p><font size=2>Copyright &copy; {{ .Now.Format "2006" }} <a href="{{ "/LICENSE" | absURL }}">License</a><br/>
