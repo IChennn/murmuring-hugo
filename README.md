@@ -15,15 +15,13 @@ Source for my website :  [https://ichennn.github.io/](https://ichennn.github.io/
 
 +    <p><font size=2>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}<br/>
 ```
-5. Fix render error in `layouts/partials/head.html`
+5. Update deprecated constructure in `layouts/partials/head.html`
 ```
 -    {{ with .RSSLink }}<link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $siteTitle }} &middot; {{ $authorName }}" />{{ end }}
 
-+    { range .AlternativeOutputFormats -}}
-       {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
-     { end -}}
++    {{ with .OutputFormats.Get "RSS" }}<link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $siteTitle }} &middot; {{ $authorName }}" />{{ end }}
 ```
-6. Update deprecated pagination feature in `layouts/index.html`
+6. Update deprecated constructure in `layouts/index.html`
 ```
 -    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 
