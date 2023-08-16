@@ -1,5 +1,5 @@
 +++
-categories = ["Learning", "院試"]
+categories = ["Learning", "院試", "京都生活"]
 keywords = []
 description = "京都大學情報學研究科社會情報專攻 ＆跨領域申請心得。記錄一些哩哩摳摳的手續與心情，此篇為入學考試篇。"
 date = "2017-03-28T21:24:04+08:00"

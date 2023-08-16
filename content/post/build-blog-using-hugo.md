@@ -2,7 +2,7 @@
 date = "2017-03-20T20:28:57+08:00"
 description = "其實寫部落格真的是一件很麻煩的事，但好不容易下定決心要為生活留下一點痕跡，就來記錄一下生出現在的部落格的過程吧。"
 title = "如何用Hugo架出乾淨簡潔的部落格"
-categories = ["Learning","Tech","Hugo" ]
+categories = ["Learning","Hugo" ]
 keywords = []
 
 +++

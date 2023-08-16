@@ -3,7 +3,7 @@ date = "2023-04-07T09:03:08+09:00"
 title = "讓Hyde-x theme重新動起來"
 description = "Hyde-x在2018年之後就再也沒有更新維護，2023年已無法直接render。不過藉由override修正一些小地方，就可以讓Hyde-x重新動起來了！"
 keywords = []
-categories = ["Learning","Tech","Hugo"]
+categories = ["Learning","Hugo"]
 +++
 
 距離上一次更新文章，不知不覺已經過了四年。最近想要重新振作起來，整理自己的生活，一方面希望能繼續保持生活中有所output的習慣，另一方面也是希望能有條理地回顧自己過去四年當中究竟有哪些成長與改變。

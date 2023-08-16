@@ -3,7 +3,7 @@ title = "CKA備考＆常用指令筆記"
 date = 2023-08-12T17:29:03+09:00
 description = "叨叨念念要考CKA（Certified Kubernetes Administrator）已經過了一年，終於在2023年趁著準備轉職的契機，一鼓作氣地把線上課看完，緊鑼密鼓的準備了約一個月，最後有驚無險地通過啦！過程中整理了一些考試時常用，實務中也有用的指令，趁著記憶猶新的時候整理記錄以供日後參考。"
 keywords = []
-categories = ["Learning","Kubernetes","Tech"]
+categories = ["Learning","Kubernetes"]
 
 +++
 

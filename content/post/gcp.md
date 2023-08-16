@@ -1,6 +1,6 @@
 +++
 date = "2018-01-29T14:49:08+09:00"
-categories = ["Learning","Tech", "google cloud platform"]
+categories = ["Learning", "gcp"]
 keywords = []
 description = "為了要跑研究上一筆有點大的資料，開始研究怎麼用google cloud platform。此篇介紹如何在gcp的虛擬機器上面跑Jupiter notebook"
 title = "用google cloud platform 開jupyter notebook!"

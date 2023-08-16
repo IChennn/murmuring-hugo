@@ -1,5 +1,5 @@
 +++
-categories = ["Learning","Tech","Hugo"]
+categories = ["Learning","Hugo"]
 keywords = []
 description = "記錄一下在Hugo裡塗塗改改後，卻push不上去的困境以及如何被估狗拯救。"
 title = "在Hugo寫完文章，卻push不上github怎麼辦？"
