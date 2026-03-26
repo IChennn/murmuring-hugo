@@ -17,7 +17,7 @@
       
     </ul>
 
-    <ul class="sidebar-nav">
+<ul class="sidebar-nav">
       <li class="sidebar-nav-item">
       {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github-square fa-2x"></i></a>{{ end }}
       {{ with .Site.Params.bitbucket }}<a href="{{ . }}"><i class="fa fa-bitbucket-square fa-3x"></i></a>{{ end }}
@@ -27,6 +27,32 @@
       {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.youtube }}<a href="{{ . }}"><i class="fa fa-youtube-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.buymeacoffee }}
+      <script type="text/javascript"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+        data-name="bmc-button"
+        data-slug="{{ . }}"
+        data-color="#608682" {{/* 用不到 因為底下已經設定透明 但需要這一行讓按鈕顯示 */}}
+        data-emoji="☕"
+        data-font="Cookie"
+        data-text="Buy me a coffee"
+        data-outline-color="#608682"
+        data-font-color="#ffffff"
+        data-coffee-color="#ffffff">
+      </script>
+      <style>
+        .bmc-btn {
+          opacity: 0.85;
+          transform: scale(0.9);
+          transform-origin: center;
+          margin-top: 5px auto 0 !important;
+          background-color: transparent !important;
+        }
+        .bmc-btn:hover {
+          opacity: 1;
+        }
+      </style>
+      {{ end }}
       {{ if .Site.Params.rss }}<a href="{{ "/index.xml" | absURL }}" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>{{ end }}
       </li>
     </ul>

@@ -80,5 +80,7 @@ canonifyURLs = true
     facebook = ""
     twitter = ""
     youtube = ""
+    #buymeacoffee = "https://buymeacoffee.com/i_chennn"
+    buymeacoffee = "i_chennn"
 
    
