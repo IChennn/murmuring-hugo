@@ -34,6 +34,9 @@ canonifyURLs = true
 [[menu.main]]
     name = "Life in Kyoto"
     url = "/categories/京都生活/"
+[[menu.main]]
+    name = "Generative AI"
+    url = "/categories/Generative AI/"
 
 
 #
